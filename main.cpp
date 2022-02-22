@@ -62,9 +62,10 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
 	ShowWindow(hWnd, nCmdShow);
 
-	// Initializing D3D
+	// Declaring D3D Window
 	D3D9 D3DWindow(1280, 720, hWnd);
 
+	// Initializing D3D
 	D3DWindow.InitD3D();
 
 	MSG msg;
